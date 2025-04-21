@@ -2,7 +2,7 @@
 
 Use JSX when working with Pear Desktop Apps.
 
-This project is a proof of concept to demonstrate how to set up a Pear Desktop App using React and Vite with Tailwind CSS.
+This project is an example to demonstrate how to set up a Pear Desktop App using React and Vite with Tailwind CSS.
 
 ## Running the Project
 
