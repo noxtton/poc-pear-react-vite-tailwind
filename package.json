@@ -1,0 +1,24 @@
+{
+  "name": "poc-pear-react-vite-tailwind",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d ./dist",
+    "build:watch": "vite build --watch",
+    "lint": "eslint --fix ./src"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tether-dev-docs": "github:noxtton/tether-dev-docs#v0.0.4",
+    "vite": "^6.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.4"
+  }
+}
