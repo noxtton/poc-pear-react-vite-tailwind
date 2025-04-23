@@ -22,3 +22,19 @@ To run the project locally, follow these steps:
     ```bash
     npm run dev
     ```
+
+## Stage and Seed
+
+To stage and seed the project for development, follow these steps:
+
+
+1. Stage the project:
+    ```bash
+    pear stage dev dist
+    ```
+
+2. Seed the project:
+    ```bash
+    pear seed dev dist
+    ``` 
+
