@@ -27,7 +27,6 @@ To run the project locally, follow these steps:
 
 To stage and seed the project for development, follow these steps:
 
-
 1. Stage the project:
     ```bash
     pear stage dev dist
