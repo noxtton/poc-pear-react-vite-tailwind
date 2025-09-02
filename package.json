@@ -2,8 +2,18 @@
   "name": "poc-pear-react-vite-tailwind",
   "type": "module",
   "license": "Apache-2.0",
+  "main": "index.html",
+  "pear": {
+    "name": "poc-pear-react-vite-tailwind",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": "540",
+      "width": "720"
+    }
+  },
   "scripts": {
-    "dev": "pear run -d ./dist",
+    "dev": "pear run -d .",
     "build:watch": "vite build --watch",
     "lint": "eslint --fix ./src"
   },
