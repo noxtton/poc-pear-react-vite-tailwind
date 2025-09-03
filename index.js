@@ -1,0 +1,1 @@
+Pear.updates(() => Pear.reload())
