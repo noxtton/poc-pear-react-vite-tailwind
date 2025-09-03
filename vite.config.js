@@ -6,6 +6,9 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
+    watch: {
+      include: 'src/**'
+    },
     rollupOptions: {
       input: './src/index.jsx',
       output: {
