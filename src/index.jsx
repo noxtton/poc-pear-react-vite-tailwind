@@ -6,8 +6,6 @@ import { App } from './App.jsx'
 
 import './index.css'
 
-Pear.updates(() => Pear.reload())
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

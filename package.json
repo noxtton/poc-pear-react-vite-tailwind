@@ -30,6 +30,9 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
+    "autopass": "2.2.1",
+    "bare-rpc": "0.2.8",
+    "corestore": "7.4.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.4"
